@@ -2,10 +2,10 @@
 
 <?php
 
-function novaConexao($banco = 'curso_php') {
-  $servidor ='127.0.0.1:3306';
-  $usuario = 'r';
-    $senha = 'password';
+function novaConexao($banco = ' ') {
+  $servidor =' ';
+  $usuario = '';
+    $senha = ' ';
   //$servidor = 'mysql:host=localhost';
     
 
